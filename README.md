@@ -1,4 +1,13 @@
-# 📦 StockFlow API
+<!-- LANG SWITCHER -->
+<p align="center">
+  <a href="#pt-br">🇧🇷 Português</a> • 
+  <a href="#en-us">🇺🇸 English</a>
+</p>
+
+---
+
+<a name="pt-br"></a>
+# 📦 StockFlow API (Português)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -12,11 +21,11 @@ API RESTful desenvolvida para gerenciamento de estoque e controle logístico de 
 ## 🚀 Tecnologias Utilizadas
 
 - **Python 3.10+**
-- **FastAPI** (Evolução contínua, alta performance e documentação Swagger automática)
-- **SQLAlchemy** (ORM para modelagem e mapeamento relacional)
+- **FastAPI** (Alta performance e documentação Swagger automática)
+- **SQLAlchemy** (ORM para mapeamento relacional)
 - **Pydantic** (Validação de schemas e contratos de dados)
 - **SQLite / PostgreSQL** (Persistência de dados)
-- **Docker & Docker Compose** (Containerização e padronização de ambiente)
+- **Docker & Docker Compose** (Containerização de ambiente)
 
 ---
 
