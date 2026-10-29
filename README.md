@@ -1,19 +1,33 @@
 # 📦 StockFlow API
 
-API REST desenvolvida para gerenciar o fluxo de mercadorias em armazéns, controlando entradas, saídas, validação de estoque mínimo e prevenção de ruptura.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+API RESTful desenvolvida para gerenciamento de estoque e controle logístico de armazéns. O sistema controla entradas e saídas de mercadorias, previne a venda sem saldo disponível e valida níveis mínimos para evitar a ruptura de estoque.
+
+---
 
 ## 🚀 Tecnologias Utilizadas
+
 - **Python 3.10+**
-- **FastAPI** (Performance e documentação automática via Swagger)
-- **SQLAlchemy** (ORM)
-- **SQLite / PostgreSQL**
-- **Docker & Docker Compose**
+- **FastAPI** (Evolução contínua, alta performance e documentação Swagger automática)
+- **SQLAlchemy** (ORM para modelagem e mapeamento relacional)
+- **Pydantic** (Validação de schemas e contratos de dados)
+- **SQLite / PostgreSQL** (Persistência de dados)
+- **Docker & Docker Compose** (Containerização e padronização de ambiente)
+
+---
 
 ## ⚙️ Como Executar o Projeto
 
-Clone o repositório e execute via Docker:
+### Pré-requisitos
+- [Docker](https://www.docker.com/) e [Docker Compose](https://docs.docker.com/compose/) instalados.
 
-```bash
-git clone [https://github.com/thatAlisson/stockflow-api.git](https://github.com/thatAlisson/stockflow-api.git)
-cd stockflow-api
-docker-compose up --build
+### Passo a Passo
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/thatAlisson/stockflow-api.git](https://github.com/thatAlisson/stockflow-api.git)
+   cd stockflow-api
